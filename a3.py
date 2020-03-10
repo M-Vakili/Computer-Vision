@@ -98,6 +98,7 @@ while True:
     elif key==ord('s'):
         cv2.imwrite('X.jpg',pic_x)
         cv2.imwrite('Y.jpg',pic_y)
+        cv2.imwrite('EDGE.jpg',edge)
         cv2.destroyAllWindows()
         break
     else:
